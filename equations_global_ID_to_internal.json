@@ -134,11 +134,6 @@
     "network": "macroscopic",
     "rhs": " T . inv ( T_meas_norming )"
   },
-  "E_124": {
-    "lhs": "_T_meas",
-    "network": "macroscopic >>> control",
-    "rhs": " F_NI_source * N T_meas"
-  },
   "E_13": {
     "lhs": "G",
     "network": "macroscopic",

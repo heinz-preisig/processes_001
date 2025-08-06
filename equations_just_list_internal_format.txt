@@ -25,7 +25,6 @@ E_120 :: cp =  Instantiate ( cp , value )
 E_121 :: T =  H . inv ( Cp ) + T_ref
 E_122 :: T_meas_norming =  Instantiate ( T , value )
 E_123 :: T_meas =  T . inv ( T_meas_norming )
-E_124 :: _T_meas =  F_NI_source * N T_meas
 E_13 :: G =  U + p . V - T . S
 E_133 :: fm =  fV . rho
 E_14 :: v_x =  ParDiff ( r_x , t )

@@ -45,7 +45,7 @@ from Common.ontology_container import OntologyContainer
 
 from owlready2 import *
 
-ontology = OntologyContainer("processes_001_HAP") #'flash_03')
+ontology = OntologyContainer("processes_001") #'flash_03')
 
 
 variables = ontology.variables
@@ -2628,28 +2628,6 @@ V_V_224.temperature = [ units[4] ]
 V_V_224.current = [ units[5] ]
 V_V_224.light = [ units[6] ]
 
-# V_225
-label = variables[V_225]["label"]
-network = variables[V_225]["network"]
-variable_type = variables[V_225]["type"]
-label = variables[V_225]["label"]
-doc = variables[V_225]["doc"]
-onto_ID = "V_V_225"
-V_V_225 = onto.ProMoVar( onto_ID )
-V_V_225.label = label
-V_V_225.network = network
-V_V_225.variable_type = variable_type
-V_V_225.comment = doc
-
-units = variables[V_225]["units"].asList()
-V_V_225.time = [ units[0] ]
-V_V_225.length = [ units[1] ]
-V_V_225.amount = [ units[2] ]
-V_V_225.mass = [ units[3] ]
-V_V_225.temperature = [ units[4] ]
-V_V_225.current = [ units[5] ]
-V_V_225.light = [ units[6] ]
-
 # V_23
 label = variables[V_23]["label"]
 network = variables[V_23]["network"]
@@ -4086,16 +4064,6 @@ F_ID = "F_E_123"
 F_E_123 = onto.function( F_ID )
 F_E_123.is_function_of = incidence_list
 V_V_224.has_function.append( F_E_123 )
-#V_225
-
-V_V_225.has_function = []
-incidence_list = []
-incidence_list.append( V_3 )
-incidence_list.append( V_224 )
-F_ID = "F_E_124"
-F_E_124 = onto.function( F_ID )
-F_E_124.is_function_of = incidence_list
-V_V_225.has_function.append( F_E_124 )
 #V_23
 
 V_V_23.has_function = []

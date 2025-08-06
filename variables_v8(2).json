@@ -6415,6 +6415,63 @@
         0
       ]
     },
+    "V_225": {
+      "IRI": "promo:_T_meas",
+      "aliases": {
+        "matlab": "_T_meas",
+        "latex": "\\_T\\_meas",
+        "internal_code": "_T_meas",
+        "global_ID": "V_225"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_225",
+        "latex": "{\\_T\\_meas}{_{I}}"
+      },
+      "created": "2024-06-19 12:14:14",
+      "doc": "link variable _T_meas to interface macroscopic >>> control with source:node",
+      "equations": {
+        "E_124": {
+          "rhs": {
+            "global_ID": " V_3  O_5 I_1 V_224",
+            "latex": "{{F^{source}}}{_{N, I}} \\stackrel{N}{\\star} {{\\bar{T}}}{_{N}}"
+          },
+          "type": "interface_link_equation",
+          "doc": "interface equation",
+          "network": "macroscopic >>> control",
+          "incidence_list": [
+            "V_224",
+            "V_3"
+          ],
+          "created": "2024-06-19 12:14:14",
+          "modified": "2024-06-19 12:14:14",
+          "lhs": {
+            "global_ID": "V_225",
+            "latex": "{\\_T\\_meas}{_{I}}"
+          }
+        }
+      },
+      "imported": true,
+      "index_structures": [
+        "I_3"
+      ],
+      "label": "_T_meas",
+      "memory": "node",
+      "modified": "2024-06-19 12:14:14",
+      "network": "macroscopic >>> control",
+      "port_variable": false,
+      "tokens": [],
+      "type": "get",
+      "units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
     "V_23": {
       "IRI": "promo:r_x",
       "aliases": {

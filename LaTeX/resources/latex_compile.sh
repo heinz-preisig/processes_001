@@ -12,8 +12,10 @@ if [ $? -eq 0 ]
    rm *.dvi ;\
    rm *.ps ;\
    rm *.bbl ;\
-   rm *.aux ;
-   rm *.blg ;
+   rm *.aux ;\
+   rm *.blg ;\
+   rm *.out; \
+   rm *.log;
 fi
 
 

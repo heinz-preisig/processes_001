@@ -15,7 +15,8 @@ if [ $? -eq 0 ]
    rm *.aux ;\
    rm *.blg ;\
    rm *.out; \
-   rm *.log;
+   rm *.log; \
+   rm *.tex;
 fi
 
 

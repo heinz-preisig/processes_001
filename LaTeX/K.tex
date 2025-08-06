@@ -1,0 +1,188 @@
+
+% automatically generated - do not edit
+%
+% =======================================
+
+\documentclass[landscape, 12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\usepackage[text={\textwidth,10cm},
+		a4paper,
+		headsep=0.7cm,
+		top=2cm,
+		bottom=2cm,
+		left=2cm,
+		right=2cm,
+		%		showframe,
+		showcrop,
+		%nofoot,
+		nomarginpar
+		]{geometry}
+\usepackage[%
+        backref,
+        %	ps2pdf,
+        %	dvips,
+        final,
+        %pdftitle={#1},
+        pdfauthor={Heinz A Preisig},
+        pdfsubject={'CAM'},
+        colorlinks=true,
+        linkcolor=red,
+        citecolor=blue,
+        anchorcolor=blue,
+        hyperindex=true,
+        bookmarks,
+        bookmarksopen=true,
+        bookmarksnumbered=true,
+        bookmarksdepth=10,
+        hyperfigures=true,
+        %a4paper,
+        linktocpage=true,
+        pageanchor=true,
+        ]{hyperref}
+
+\usepackage{enumitem}
+
+%% math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{calligra}
+\usepackage{array}
+
+%% >>>>>>>>>>>>>>>> user definitions BIBLIOGRAPHY & DEFS <<<<<<<<<<<<<<<<<<<<<<<<
+
+\input{./resources/defs}
+\input{./resources/defvars}
+\parindent=0pt
+
+
+
+
+\newenvironment{eq}{\begin{minipage}{16cm}$}{$\end{minipage} }
+%\newenvironment{eq}{$}{$}
+
+% ==================================== body  =====================================
+\begin{document}
+
+
+\section*{Equation assignment sequence for variable $K$}
+
+
+
+\renewcommand{\arraystretch}{1.5}
+
+\begin{longtable}{|p{1cm}|p{1cm}|p{1cm}|p{16cm}|p{4cm}|}\hline
+  no &var &equ &quations &token\\\hline\hline
+\endhead
+\hline \multicolumn{3}{r}{\textit{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+99 &26 &- &\begin{eq}{N}{_{S, K}} :: \text{port variable}\end{eq} & \\
+98 &19 &- &\begin{eq}{{A}}{_{N, p, q}} :: \text{port variable}\end{eq} & \\
+97 &10 &- &\begin{eq}{{S}}{_{I, q}} :: \text{port variable}\end{eq} & \\
+96 &27 &- &\begin{eq}{{I}}{_{N, A}} :: \text{port variable}\end{eq} & \\
+95 &2 &- &\begin{eq}{{F}}{_{N, A}} :: \text{port variable}\end{eq} & \\
+94 &132 &- &\begin{eq}{{\lambda}}{_{S}} :: \text{port variable}\end{eq} & \\
+93 &25 &- &\begin{eq}{{r_z}}{_{N}} :: \text{port variable}\end{eq} & \\
+92 &24 &- &\begin{eq}{{r_y}}{_{N}} :: \text{port variable}\end{eq} & \\
+91 &23 &- &\begin{eq}{{r_x}}{_{N}} :: \text{port variable}\end{eq} & \\
+90 &101 &- &\begin{eq}{{\#}}{_{}} :: \text{port variable}\end{eq} & \\
+89 &1 &- &\begin{eq}{t}{_{}} :: \text{port variable}\end{eq} & \\
+88 &109 &- &\begin{eq}{S}{_{N}} :: \text{port variable}\end{eq} & \\
+87 &108 &- &\begin{eq}{U}{_{N}} :: \text{port variable}\end{eq} & \\
+86 &3 &- &\begin{eq}{{F^{source}}}{_{N, I}} :: \text{port variable}\end{eq} & \\
+85 &9 &- &\begin{eq}{{S}}{_{I, p}} :: \text{port variable}\end{eq} & \\
+84 &4 &- &\begin{eq}{{F^{sink}}}{_{N, I}} :: \text{port variable}\end{eq} & \\
+83 &122 &- &\begin{eq}{{k^B}}{_{}} :: \text{port variable}\end{eq} & \\
+82 &121 &- &\begin{eq}{{N^A}}{_{}} :: \text{port variable}\end{eq} & \\
+81 &198 &- &\begin{eq}{{K^o}}{_{K}} :: \text{port variable}\end{eq} & \\
+80 &197 &- &\begin{eq}{{E^a}}{_{K}} :: \text{port variable}\end{eq} & \\
+79 &164 &171 &\begin{eq}\_x := {{F^{source}}}{_{N, I}} \stackrel{N}{\star} {x}{_{N, S}}\end{eq} & \\
+78 &165 &169 &\begin{eq}x := \left({{F^{sink}}}{_{N, I}} \, . \, {\_x}{_{I, S}}\right) \stackrel{I}{\star} {{S}}{_{I, p}}\end{eq} & \\
+77 &168 &167 &\begin{eq}f := {x}{_{N, S, p}}^{\left(\left(|{N}{_{S, K}}|\right)\right)}\end{eq} & \\
+76 &169 &165 &\begin{eq}\xi := \prod_{S}  {{f}{_{N, S, K, p}}} \end{eq} & \\
+75 &200 &161 &\begin{eq}{\tilde{n}} := {{A}}{_{N, p, q}} \stackrel{p}{\star} \left({N}{_{S, K}} \stackrel{K}{\star} \left({K}{_{N, K, p}} \, . \, {\xi}{_{N, K, p}}\right)\right)\end{eq} & \\
+74 &139 &160 &\begin{eq}{n^t} := \textbf{reduceSum}\left({n}{_{N, S}},S\right)\end{eq} & \\
+73 &143 &159 &\begin{eq}{\rho} := \left( {V}{_{N}} \right)^{-1} \, . \, {m}{_{N}}\end{eq} & \\
+72 &201 &156 &\begin{eq}\_np := \textbf{reduceSum}\left(\left(\left({{F^{source}}}{_{N, I}} \stackrel{N}{\star} {{\tilde{n}}}{_{N, S, q}}\right) \, . \, {{S}}{_{I, q}}\right),q\right)\end{eq} & \\
+71 &120 &155 &\begin{eq}{v_z} := \frac{\partial{{{r_z}}{_{N}}}}{\partial{{t}{_{}}}}\end{eq} & \\
+70 &119 &154 &\begin{eq}{v_y} := \frac{\partial{{{r_y}}{_{N}}}}{\partial{{t}{_{}}}}\end{eq} & \\
+69 &118 &153 &\begin{eq}{v_x} := \frac{\partial{{{r_x}}{_{N}}}}{\partial{{t}{_{}}}}\end{eq} & \\
+68 &161 &152 &\begin{eq}{\mu^o} := \textbf{Instantiate}({{\mu}}{_{N, S}}, {{\#}}{_{}})\end{eq} & \\
+67 &140 &150 &\begin{eq}x := \left( {{n^t}}{_{N}} \right)^{-1} \, . \, {n}{_{N, S}}\end{eq} & \\
+66 &189 &148 &\begin{eq}{\rho} := {{I}}{_{N, A}} \stackrel{N}{\star} {{\rho}}{_{N}}\end{eq} & \\
+65 &183 &147 &\begin{eq}{k^c_x} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left({{\lambda}}{_{S}} \stackrel{S}{\star} \left( {{\mu}}{_{N, S}} \right)^{-1}\right) \, . \, \left( {V}{_{N}} \right)^{-1} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{p}{_{N}}}} \, . \, {{v_x}}{_{N}}\right)\end{eq} & \\
+64 &157 &146 &\begin{eq}d := \textbf{sign} \left( {{F}}{_{N, A}} \stackrel{N}{\star} {p}{_{N}} \right)\end{eq} & \\
+63 &104 &145 &\begin{eq}0.5 := \textbf{Instantiate}({{\#}}{_{}}, {{\#}}{_{}})\end{eq} & \\
+62 &202 &143 &\begin{eq}{\tilde{n}} := {{F^{source}}}{_{N, I}} \stackrel{I}{\star} {\_np}{_{I, S}}\end{eq} & \\
+61 &195 &142 &\begin{eq}{\dot{n}^d_x} := {{F}}{_{N, A}} \stackrel{A}{\star} {{\hat{n}^{d}_x}}{_{A, S}}\end{eq} & \\
+60 &194 &141 &\begin{eq}{\dot{n}^c_x} := {{F}}{_{N, A}} \stackrel{A}{\star} {{\hat{n}^c_x}}{_{A, S}}\end{eq} & \\
+59 &188 &140 &\begin{eq}{k^q_z} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left( {V}{_{N}} \right)^{-1} \, . \, {{C_p}}{_{N}} \, . \, {{v_z}}{_{N}}\right)\end{eq} & \\
+58 &187 &139 &\begin{eq}{k^q_y} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left( {V}{_{N}} \right)^{-1} \, . \, {{C_p}}{_{N}} \, . \, {{v_y}}{_{N}}\right)\end{eq} & \\
+57 &186 &138 &\begin{eq}{k^q_x} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left( {V}{_{N}} \right)^{-1} \, . \, {{C_p}}{_{N}} \, . \, {{v_x}}{_{N}}\right)\end{eq} & \\
+56 &182 &137 &\begin{eq}{k^d_z} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left( {{\mu}}{_{N, S}} \right)^{-1} \, . \, \left({{v_z}}{_{N}} \, . \, \left(\left( {V}{_{N}} \right)^{-1} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{{\mu}}{_{N, S}}}}\right)\right)\right)\end{eq} & \\
+55 &192 &135 &\begin{eq}{\hat{k}^{d,Fick}_z} := {{I}}{_{N, A}} \stackrel{N}{\star} \left({{v_z}}{_{N}} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{{\mu}}{_{N, S}}}} \, . \, \left( {n}{_{N, S}} \right)^{-1}\right)\end{eq} & \\
+54 &148 &134 &\begin{eq}{A_{xy}} := {{r_x}}{_{N}} \, . \, {{r_y}}{_{N}}\end{eq} & \\
+53 &181 &133 &\begin{eq}{k^d_y} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left( {{\mu}}{_{N, S}} \right)^{-1} \, . \, \left({{v_y}}{_{N}} \, . \, \left(\left( {V}{_{N}} \right)^{-1} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{{\mu}}{_{N, S}}}}\right)\right)\right)\end{eq} & \\
+52 &191 &131 &\begin{eq}{\hat{k}^{d,Fick}_y} := {{I}}{_{N, A}} \stackrel{N}{\star} \left({{v_y}}{_{N}} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{{\mu}}{_{N, S}}}} \, . \, \left( {n}{_{N, S}} \right)^{-1}\right)\end{eq} & \\
+51 &149 &130 &\begin{eq}{A_{xz}} := {{r_x}}{_{N}} \, . \, {{r_z}}{_{N}}\end{eq} & \\
+50 &190 &129 &\begin{eq}{\hat{k}^{d,Fick}_x} := {{I}}{_{N, A}} \stackrel{N}{\star} \left({{v_x}}{_{N}} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{{\mu}}{_{N, S}}}} \, . \, \left( {n}{_{N, S}} \right)^{-1}\right)\end{eq} & \\
+49 &138 &128 &\begin{eq}c := \left( {V}{_{N}} \right)^{-1} \, . \, {n}{_{N, S}}\end{eq} & \\
+48 &180 &125 &\begin{eq}{k^d_x} := {{I}}{_{N, A}} \stackrel{N}{\star} \left(\left( {{\mu}}{_{N, S}} \right)^{-1} \, . \, \left({{v_x}}{_{N}} \, . \, \left(\left( {V}{_{N}} \right)^{-1} \, . \, \frac{\partial{{U}{_{N}}}}{\partial{{{\mu}}{_{N, S}}}}\right)\right)\right)\end{eq} & \\
+47 &150 &124 &\begin{eq}{A_{yz}} := {{r_y}}{_{N}} \, . \, {{r_z}}{_{N}}\end{eq} & \\
+46 &114 &121 &\begin{eq}{\mu} := {{\mu^o}}{_{N, S}}  + {R}{_{}} \, . \, {T}{_{N}} \, . \, \textbf{ln}\left({x}{_{N, S}}\right)\end{eq} & \\
+45 &114 &120 &\begin{eq}{\mu} := \frac{\partial{{U}{_{N}}}}{\partial{{n}{_{N, S}}}}\end{eq} & \\
+44 &159 &117 &\begin{eq}{\hat{V}} := \left( {{\rho}}{_{A}} \right)^{-1} \, . \, {{k^c_x}}{_{A}} \, . \, {{A_{yz}}}{_{N}} \, . \, {{F}}{_{N, A}} \stackrel{N}{\star} {p}{_{N}}\end{eq} & \\
+43 &158 &114 &\begin{eq}c := \left({0.5}{_{}} \, . \, \left({{F}}{_{N, A}}  - {d}{_{A}} \, . \, |{{F}}{_{N, A}}|\right)\right) \stackrel{N}{\star} {c}{_{N, S}}\end{eq} & \\
+42 &203 &113 &\begin{eq}{n^o} := \textbf{Instantiate}({n}{_{N, S}}, {{\#}}{_{}})\end{eq} & \\
+41 &196 &109 &\begin{eq}{\dot{n}} := {{\dot{n}^c_x}}{_{N, S}}  + {{\dot{n}^d_x}}{_{N, S}}  + {V}{_{N}} \, . \, {{\tilde{n}}}{_{N, S}}\end{eq} & \\
+40 &211 &108 &\begin{eq}{\hat{w}} := \textbf{Instantiate}({{\hat{q}_x}}{_{A}}, {{\#}}{_{}})\end{eq} & \\
+39 &153 &106 &\begin{eq}{\hat{q}_z} := {{k^q_z}}{_{A}} \, . \, {{A_{xy}}}{_{N}} \, . \, {{F}}{_{N, A}} \stackrel{N}{\star} {T}{_{N}}\end{eq} & \\
+38 &152 &104 &\begin{eq}{\hat{q}_y} := {{k^q_y}}{_{A}} \, . \, {{A_{xz}}}{_{N}} \, . \, {{F}}{_{N, A}} \stackrel{N}{\star} {T}{_{N}}\end{eq} & \\
+37 &151 &102 &\begin{eq}{\hat{q}_x} := {{k^q_x}}{_{A}} \, . \, {{A_{yz}}}{_{N}} \, . \, {{F}}{_{N, A}} \stackrel{N}{\star} {T}{_{N}}\end{eq} & \\
+36 &156 &100 &\begin{eq}{\hat{n}^{d}_z} := {{k^d_z}}{_{A, S}} \, . \, \left({{A_{xy}}}{_{N}} \, . \, {{F}}{_{N, A}}\right) \stackrel{N}{\star} {{\mu}}{_{N, S}}\end{eq} & \\
+35 &156 &97 &\begin{eq}{\hat{n}^{d}_z} := {{\hat{k}^{d,Fick}_z}}{_{A, S}} \, . \, \left({{A_{xy}}}{_{N}} \, . \, {{F}}{_{N, A}}\right) \stackrel{N}{\star} {c}{_{N, S}}\end{eq} & \\
+34 &155 &95 &\begin{eq}{\hat{n}^{d}_y} := {{k^d_y}}{_{A, S}} \, . \, \left({{A_{yz}}}{_{N}} \, . \, {{F}}{_{N, A}}\right) \stackrel{N}{\star} {{\mu}}{_{N, S}}\end{eq} & \\
+33 &155 &92 &\begin{eq}{\hat{n}^{d}_y} := {{\hat{k}^{d,Fick}_y}}{_{A, S}} \, . \, {{A_{xz}}}{_{N}} \, . \, {{F}}{_{N, A}} \stackrel{N}{\star} {c}{_{N, S}}\end{eq} & \\
+32 &154 &89 &\begin{eq}{\hat{n}^{d}_x} := {{\hat{k}^{d,Fick}_x}}{_{A, S}} \, . \, {{A_{yz}}}{_{N}} \, . \, {{F}}{_{N, A}} \stackrel{N}{\star} {c}{_{N, S}}\end{eq} & \\
+31 &154 &85 &\begin{eq}{\hat{n}^{d}_x} := {{k^d_x}}{_{A, S}} \, . \, \left({{A_{yz}}}{_{N}} \, . \, {{F}}{_{N, A}}\right) \stackrel{N}{\star} {{\mu}}{_{N, S}}\end{eq} & \\
+30 &160 &82 &\begin{eq}{\hat{n}^c_x} := {{\hat{V}}}{_{A}} \, . \, {c}{_{A, S}}\end{eq} & \\
+29 &136 &81 &\begin{eq}h := {H}{_{N}} \, . \, \left( {n}{_{N, S}} \right)^{-1}\end{eq} & \\
+28 &111 &78 &\begin{eq}n := \int_{ {{t^o}}{_{}} }^{ {{t^e}}{_{}} } \, {{\dot{n}}}{_{N, S}} \enskip d\,{t}{_{}}  + {{n^o}}{_{N, S}}\end{eq} & \\
+27 &214 &76 &\begin{eq}{\dot{w}} := {{F}}{_{N, A}} \stackrel{A}{\star} {{\hat{w}}}{_{A}}\end{eq} & \\
+26 &210 &74 &\begin{eq}{\dot{q}_z} := {{F}}{_{N, A}} \stackrel{A}{\star} {{\hat{q}_z}}{_{A}}\end{eq} & \\
+25 &209 &72 &\begin{eq}{\dot{q}_y} := {{F}}{_{N, A}} \stackrel{A}{\star} {{\hat{q}_y}}{_{A}}\end{eq} & \\
+24 &208 &70 &\begin{eq}{\dot{q}_x} := {{F}}{_{N, A}} \stackrel{A}{\star} {{\hat{q}_x}}{_{A}}\end{eq} & \\
+23 &207 &68 &\begin{eq}{\dot{H}^d_z} := {{F}}{_{N, A}} \stackrel{A}{\star} \left({{\hat{n}^{d}_z}}{_{A, S}} \stackrel{S}{\star} {h}{_{N, S}}\right)\end{eq} & \\
+22 &206 &66 &\begin{eq}{\dot{H}^d_y} := {{F}}{_{N, A}} \stackrel{A}{\star} \left({{\hat{n}^{d}_y}}{_{A, S}} \stackrel{S}{\star} {h}{_{N, S}}\right)\end{eq} & \\
+21 &205 &64 &\begin{eq}{\dot{H}^d_x} := {{F}}{_{N, A}} \stackrel{A}{\star} \left({{\hat{n}^{d}_x}}{_{A, S}} \stackrel{S}{\star} {h}{_{N, S}}\right)\end{eq} & \\
+20 &204 &60 &\begin{eq}{\dot{H}^c_x} := {{F}}{_{N, A}} \stackrel{A}{\star} \left({{\hat{n}^c_x}}{_{A, S}} \stackrel{S}{\star} {h}{_{N, S}}\right)\end{eq} & \\
+19 &141 &59 &\begin{eq}{c_p} := \textbf{Instantiate}({{c_p}}{_{N}}, {{\#}}{_{}})\end{eq} & \\
+18 &141 &58 &\begin{eq}{c_p} := {{C_p}}{_{N}} \, . \, \left( {m}{_{N}} \right)^{-1}\end{eq} & \\
+17 &137 &55 &\begin{eq}m := {{\lambda}}{_{S}} \stackrel{S}{\star} {n}{_{N, S}}\end{eq} & \\
+16 &112 &54 &\begin{eq}p := \frac{\partial{{U}{_{N}}}}{\partial{{V}{_{N}}}}\end{eq} & \\
+15 &110 &50 &\begin{eq}V := {{r_x}}{_{N}} \, . \, {{r_y}}{_{N}} \, . \, {{r_z}}{_{N}}\end{eq} & \\
+14 &216 &49 &\begin{eq}{H^o} := \textbf{Instantiate}({H}{_{N}}, {{\#}}{_{}})\end{eq} & \\
+13 &215 &40 &\begin{eq}{\dot{H}} := {{\dot{H}^c_x}}{_{N}}  + {{\dot{H}^d_x}}{_{N}}  + {{\dot{H}^d_y}}{_{N}}  + {{\dot{H}^d_z}}{_{N}}  + {{\dot{q}_x}}{_{N}}  + {{\dot{q}_y}}{_{N}}  + {{\dot{q}_z}}{_{N}}  + {{\dot{w}}}{_{N}}\end{eq} & \\
+12 &106 &39 &\begin{eq}{t^e} := \textbf{Instantiate}({t}{_{}}, {{\#}}{_{}})\end{eq} & \\
+11 &105 &38 &\begin{eq}{t^o} := \textbf{Instantiate}({t}{_{}}, {{\#}}{_{}})\end{eq} & \\
+10 &222 &36 &\begin{eq}{T^{ref}} := \textbf{Instantiate}({T}{_{N}}, {{\#}}{_{}})\end{eq} & \\
+9 &124 &33 &\begin{eq}{C_p} := {m}{_{N}} \, . \, {{c_p}}{_{N}}\end{eq} & \\
+8 &124 &32 &\begin{eq}{C_p} := \frac{\partial{{H}{_{N}}}}{\partial{{T}{_{N}}}}\end{eq} & \\
+7 &115 &29 &\begin{eq}H := {U}{_{N}}  - {p}{_{N}} \, . \, {V}{_{N}}\end{eq} & \\
+6 &115 &23 &\begin{eq}H := \int_{ {{t^o}}{_{}} }^{ {{t^e}}{_{}} } \, {{\dot{H}}}{_{N}} \enskip d\,{t}{_{}}  + {{H^o}}{_{N}}\end{eq} & \\
+5 &113 &20 &\begin{eq}T := \frac{\partial{{U}{_{N}}}}{\partial{{S}{_{N}}}}\end{eq} & \\
+4 &113 &16 &\begin{eq}T := {H}{_{N}} \, . \, \left( {{C_p}}{_{N}} \right)^{-1}  + {{T^{ref}}}{_{N}}\end{eq} & \\
+3 &166 &13 &\begin{eq}\_T := {{F^{source}}}{_{N, I}} \stackrel{N}{\star} {T}{_{N}}\end{eq} & \\
+2 &167 &9 &\begin{eq}T := \left({{F^{sink}}}{_{N, I}} \, . \, {\_T}{_{I}}\right) \stackrel{I}{\star} {{S}}{_{I, p}}\end{eq} & \\
+1 &123 &6 &\begin{eq}R := {{N^A}}{_{}} \, . \, {{k^B}}{_{}}\end{eq} & \\
+0 &199 &1 &\begin{eq}K := {{K^o}}{_{K}} \, . \, \textbf{exp}\left(\left( -{{E^a}}{_{K}} \right) \, . \, \left( {R}{_{}} \, . \, {T}{_{N, p}} \right)^{-1}\right)\end{eq} & \\
+
+\end{longtable}
+
+\end{document}
+% ================================== end =========================================

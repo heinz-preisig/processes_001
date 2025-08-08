@@ -1,0 +1,18 @@
+label,type,network,doc,units,IRI
+U,state,physical,fundamental state -- internal energy,"[-2, 2, 0, 1, 0, 0, 0, 0]",qudt:EnergyInternal
+S,state,physical,fundamental state -- internal entropy,"[-2, 2, 0, 1, -1, 0, 0, 0]",qudt:Entropy
+V,state,physical,volume,"[0, 3, 0, 0, 0, 0, 0, 0]",qudt:Volume
+n,state,physical,fundamental state -- molar mass,"[0, 0, 1, 0, 0, 0, 0, 0]",qudt:MolarMass
+Avo,constant,physical,Avogadro constant,"[0, 0, -1, 0, 0, 0, 0, 0]",qudt:AvogadroConstant
+Boltz,constant,physical,Boltzmann constant,"[-2, 2, 0, 1, -1, 0, 0, 0]",qudt:BoltzmannConstant
+R,constant,physical,gas constant,"[-2, 2, -1, 1, -1, 0, 0, 0]",promo:R
+Mm,constant,physical,molecular masses,"[0, 0, -1, 1, 0, 0, 0, 0]",promo:Mm
+m,state,physical,mass,"[0, 0, 0, 1, 0, 0, 0, 0]",qudt:Mass
+rho,secondaryState,physical,density,"[0, -3, 0, 1, 0, 0, 0, 0]",promo:rho
+C,state,physical,fundamental state -- charge,"[1, 0, 0, 0, 0, 1, 0, 0]",qudt:ElectricCharge
+Axy,secondaryState,physical,cross sectional area xy,"[0, 2, 0, 0, 0, 0, 0, 0]",promo:Axy
+Axz,secondaryState,physical,cross sectional are xz,"[0, 2, 0, 0, 0, 0, 0, 0]",promo:Axz
+Ayz,secondaryState,physical,cross sectional area yz,"[0, 2, 0, 0, 0, 0, 0, 0]",promo:Ayz
+r_x,frame,physical,x-coordinate,"[0, 1, 0, 0, 0, 0, 0, 0]",promo:r_x
+r_y,frame,physical,y-coordinate,"[0, 1, 0, 0, 0, 0, 0, 0]",promo:r_y
+r_z,frame,physical,z-coordinate,"[0, 1, 0, 0, 0, 0, 0, 0]",promo:r_z

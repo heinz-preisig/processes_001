@@ -1,0 +1,31 @@
+label,type,network,doc,units,IRI
+t,frame,root,time,"[1, 0, 0, 0, 0, 0, 0, 0]",qudt:Time
+S_Iq,network,root,selection matrix interface to control output,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:S_Iq
+value,constant,root,numerical value,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:value
+zero,constant,root,numerical value zero,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:zero
+one,constant,root,numerical value one,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:one
+oneHalf,constant,root,numerical value one half,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:oneHalf
+to,frame,root,starting time,"[1, 0, 0, 0, 0, 0, 0, 0]",promo:to
+te,frame,root,end time,"[1, 0, 0, 0, 0, 0, 0, 0]",promo:te
+t_interval,frame,root,time interval,"[1, 0, 0, 0, 0, 0, 0, 0]",promo:t_interval
+I_tu,network,root,identity mapping from <t> to <u>,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:I_tu
+S_Ap,network,root,selection matrix interface species-related measures,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:S_Ap
+S_Aq,network,root,selection matrix arcs to outputs,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:S_Aq
+S_Npu,network,root,selection matrix for stacker,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:S_Npu
+S_Nqt,network,root,selection matrix or splitter,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:S_Nqt
+mv_I,network,root,interface variable macro --> control,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:mv_I
+cz_N,network,root,output from control,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:cz_N
+cz_I,network,root,interface variable macro --> control,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:cz_I
+A_Npq,network,root,mapping from inputs to outputs,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:A_Npq
+F,network,root,incidence matrix,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F
+A_Ntu,network,root,mapping from input elements to outputs,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:A_Ntu
+u_Ntu,network,root,input signal in control domain,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:u_Ntu
+y_Ntu,network,root,output signal in control domain,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:y_Ntu
+I_NA,network,root,identity mapping from <N> to <A>,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:I_NA
+F_NI_source,network,root,incidence matrix NI source,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F_NI_source
+F_NI_sink,network,root,incidence matrix NI sink,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F_NI_sink
+F_AI_source,network,root,incidence matrix AI source,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F_AI_source
+F_AI_sink,network,root,incidence matrix AI sink,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F_AI_sink
+F_NA_source,network,root,incidence matrix NA source,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F_NA_source
+F_NA_sink,network,root,incidence matrix NA sink,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:F_NA_sink
+S_Ip,network,root,selection matrix interface to control input,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:S_Ip

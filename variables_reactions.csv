@@ -1,0 +1,11 @@
+label,type,network,doc,units,IRI
+c,secondaryState,reactions,link variable _c to interface reactions,"[0, -3, 1, 0, 0, 0, 0, 0]",promo:c
+x,secondaryState,reactions,link variable _x to interface reactions,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:x
+T,effort,reactions,link variable _T to interface reactions,"[0, 0, 0, 0, 1, 0, 0, 0]",promo:T
+factor,conversion,reactions,factor for probability computation,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:factor
+probability,conversion,reactions,probability of reaction to take place,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:probability
+Ea,constant,reactions,Arrhenius activation energy,"[-2, 2, -1, 1, 0, 0, 0, 0]",promo:Ea
+Ko,constant,reactions,Arrhenius frequency factor,"[-1, -3, 1, 0, 0, 0, 0, 0]",promo:Ko
+K,conversion,reactions,"Arrhenius reaction ""constant""","[-1, -3, 1, 0, 0, 0, 0, 0]",promo:K
+np,conversion,reactions,production from reaction set,"[-1, -3, 1, 0, 0, 0, 0, 0]",promo:np
+N,constant,reactions,stoichiometric matrix,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:N

@@ -1,0 +1,69 @@
+label,type,network,doc,units,IRI
+p,effort,macroscopic,thermodynamic pressure,"[-2, -1, 0, 1, 0, 0, 0, 0]",qudt:Pressure
+T,effort,macroscopic,temperature,"[0, 0, 0, 0, 1, 0, 0, 0]",qudt:Temperature
+chemPot,effort,macroscopic,chemical potential,"[-2, 2, -1, 1, 0, 0, 0, 0]",qudt:ChemicalPotential
+H,state,macroscopic,Enthalpy,"[-2, 2, 0, 1, 0, 0, 0, 0]",qudt:Enthalpy
+A,state,macroscopic,Helmholtz energy,"[-2, 2, 0, 1, 0, 0, 0, 0]",qudt:HelmholtzEnergy
+G,state,macroscopic,Gibbs free energy,"[-2, 2, 0, 1, 0, 0, 0, 0]",qudt:GibbsEnergy
+v_x,secondaryState,macroscopic,velocity in x-direction,"[-1, 1, 0, 0, 0, 0, 0, 0]",promo:v_x
+v_y,secondaryState,macroscopic,velocity in y-direction,"[-1, 1, 0, 0, 0, 0, 0, 0]",promo:v_y
+v_z,secondaryState,macroscopic,velocity in z-direction,"[-1, 1, 0, 0, 0, 0, 0, 0]",promo:v_z
+Cp,secondaryState,macroscopic,total heat capacity at constant pressure,"[-2, 2, 0, 1, -1, 0, 0, 0]",promo:Cp
+CV,secondaryState,macroscopic,total heat capacity at constant volume,"[-2, 2, 0, 1, -1, 0, 0, 0]",promo:CV
+h,secondaryState,macroscopic,partial molar enthalpies,"[-2, 2, -1, 1, 0, 0, 0, 0]",promo:h
+c,secondaryState,macroscopic,molar concentration,"[0, -3, 1, 0, 0, 0, 0, 0]",promo:c
+nt,secondaryState,macroscopic,total number of moles,"[0, 0, 1, 0, 0, 0, 0, 0]",promo:nt
+x,secondaryState,macroscopic,mole fraction,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:x
+cp,secondaryState,macroscopic,specific heat capacity at constant pressure,"[-2, 2, 0, 0, -1, 0, 0, 0]",promo:cp
+cV,secondaryState,macroscopic,specific heat capacity at constant volume,"[-2, 2, 0, 0, -1, 0, 0, 0]",promo:cV
+fq_x,transport,macroscopic,heat flow in x-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:fq_x
+fq_y,transport,macroscopic,heat flow in y-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:fq_y
+fq_z,transport,macroscopic,heat flow in z-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:fq_z
+fnd_x,transport,macroscopic,diffusion flow in x-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:fnd_x
+fnd_y,transport,macroscopic,diffusion flow in y-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:fnd_y
+fnd_z,transport,macroscopic,diffusion flow in z-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:fnd_z
+d,transport,macroscopic,flow direction of convective flow,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:d
+c_AS,transport,macroscopic,concentration in convective event-dynamic flow,"[0, -3, 1, 0, 0, 0, 0, 0]",promo:c_AS
+fV,transport,macroscopic,volumetric flow in x-direction,"[-1, 3, 0, 0, 0, 0, 0, 0]",promo:fV
+fnc_x,transport,macroscopic,molar convective flow in x-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:fnc_x
+chemPotStandard,effort,macroscopic,instantiating standard chemical potential,"[-2, 2, -1, 1, 0, 0, 0, 0]",promo:chemPotStandard
+kdA_x,properties,macroscopic,diffusivity in arc and x-direction,"[1, -4, 2, -1, 0, 0, 0, 0]",promo:kdA_x
+kdA_y,properties,macroscopic,diffusivity in arc and y-direction,"[1, -4, 2, -1, 0, 0, 0, 0]",promo:kdA_y
+kdA_z,properties,macroscopic,diffusivity in arc and z-direction,"[1, -4, 2, -1, 0, 0, 0, 0]",promo:kdA_z
+kcA_x,properties,macroscopic,convective mass conductivity in arc and x diretion,"[1, -1, 0, 0, 0, 0, 0, 0]",promo:kcA_x
+kcA_y,properties,macroscopic,convective mass conductivity in arc and y-direction,"[1, -1, 0, 0, 0, 0, 0, 0]",promo:kcA_y
+kcA_z,properties,macroscopic,convecive mass conductivity in arc and y-direction,"[1, -1, 0, 0, 0, 0, 0, 0]",promo:kcA_z
+kqA_x,properties,macroscopic,thermal conductivity in arc and x-direction,"[-3, 0, 0, 1, -1, 0, 0, 0]",promo:kqA_x
+kqA_y,properties,macroscopic,thermal conductivity in arc and y-direction,"[-3, 0, 0, 1, -1, 0, 0, 0]",promo:kqA_y
+kqA_z,properties,macroscopic,thermal conductivity in arc and z-direction,"[-3, 0, 0, 1, -1, 0, 0, 0]",promo:kqA_z
+rhoA,properties,macroscopic,density in arc,"[0, -3, 0, 1, 0, 0, 0, 0]",promo:rhoA
+kdAFick_x,properties,macroscopic,Fick's diffusivity in arc and x-direction,"[-1, 1, 0, 0, 0, 0, 0, 0]",promo:kdAFick_x
+kdAFick_y,properties,macroscopic,Fick diffusivity in arc and y-direction,"[-1, 1, 0, 0, 0, 0, 0, 0]",promo:kdAFick_y
+kdAFick_z,properties,macroscopic,Fick diffusivity in arc and z-direction,"[-1, 1, 0, 0, 0, 0, 0, 0]",promo:kdAFick_z
+hA,properties,macroscopic,partial molar enthalpiies in arc,"[-2, 2, -1, 1, 0, 0, 0, 0]",promo:hA
+anc_x,transport,macroscopic,accumulation of molar mass due to convection,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:anc_x
+and_x,transport,macroscopic,accumulation due to diffusion in x-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:and_x
+an,diffState,macroscopic,differential mass balance without reaction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:an
+np,conversion,macroscopic,link variable _np to interface macroscopic,"[-1, -3, 1, 0, 0, 0, 0, 0]",promo:np
+no,state,macroscopic,initial mass,"[0, 0, 1, 0, 0, 0, 0, 0]",promo:no
+aHnc_x,transport,macroscopic,accumulation of enthalpy due to convective mass flow in x-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aHnc_x
+aHnd_x,transport,macroscopic,accumulation of enthalpy due to diffusional mass flow in x-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aHnd_x
+aHnd_y,transport,macroscopic,accumulation of enthalpy due to diffusional mass flow in y-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aHnd_y
+aHnd_z,transport,macroscopic,accumulation of enthalpy due to diffusional mass flow in z-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aHnd_z
+aq_x,transport,macroscopic,accumulation due to heat flow in x-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aq_x
+aq_y,transport,macroscopic,accumulation due to heat flow in y-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aq_y
+aq_z,transport,macroscopic,accumulation due to heat flow in z-direction,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aq_z
+fw,transport,macroscopic,a fixed work flow to start with,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:fw
+and_y,transport,macroscopic,accumulation due to diffusion in y-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:and_y
+and_z,transport,macroscopic,accumulation due to diffusion in z-direction,"[-1, 0, 1, 0, 0, 0, 0, 0]",promo:and_z
+aw,transport,macroscopic,accumulation of enthalpy due to work flow,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:aw
+dH,diffState,macroscopic,accumulation of enthalpy,"[-3, 2, 0, 1, 0, 0, 0, 0]",promo:dH
+Ho,state,macroscopic,initial enthalpy,"[-2, 2, 0, 1, 0, 0, 0, 0]",promo:Ho
+Ue,effort,macroscopic,electrical potential -- voltage,"[-3, 2, 0, 1, 0, -1, 0, 0]",promo:Ue
+current,internalTransport,macroscopic,current definition,"[0, 0, 0, 0, 0, 1, 0, 0]",promo:current
+elResistant,properties,macroscopic,electrical resistant,"[-3, 2, 0, 1, 0, -2, 0, 0]",promo:elResistant
+dUe,diffState,macroscopic,Kirkhoffs first law,"[-3, 2, 0, 1, 0, -1, 0, 0]",promo:dUe
+T_ref,secondaryState,macroscopic,reference temperature,"[0, 0, 0, 0, 1, 0, 0, 0]",promo:T_ref
+T_meas_norming,observation,macroscopic,value to norm measurement of temperature,"[0, 0, 0, 0, 1, 0, 0, 0]",promo:T_meas_norming
+T_meas,observation,macroscopic,temperature measurement,"[0, 0, 0, 0, 0, 0, 0, 0]",promo:T_meas
+fm,transport,macroscopic,convective mass flow,"[-1, 0, 0, 1, 0, 0, 0, 0]",promo:fm
